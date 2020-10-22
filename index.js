@@ -106,7 +106,7 @@ client.on("message", async message => {
             message.delete();
             message.reply(`no mentioning piracy tools or sites`);
 
-            const logchannel = client.channels.cache.get(logChannleId);
+            const logchannel = client.channels.cache.get(logChannelId);
             if (!logchannel) { message.channel.send(`error.\n there is no log channel <@!${invalidUser} fix it`) }
             if (logchannel) {
                 const embed = new Discord.MessageEmbed()
