@@ -1,0 +1,23 @@
+{
+    "name": "Sthetixboop",
+    "version": "1.2.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "discord.js": "^12.2.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/sthetixdiscord/Sthetixboop.git"
+    },
+    "author": "404invalid-user",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/sthetixdiscord/Sthetixboop/issues"
+    },
+    "homepage": "https://sthetixdiscord.github.io/Sthetixboop/"
+}
