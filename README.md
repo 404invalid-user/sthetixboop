@@ -20,11 +20,6 @@ __**a full list of commands and what they do**__
 __commands that can be used by all members:__
 
 - [ping] - pings the bots latency in (ms) miller seconds. 
-- [xbox] - gives the xbox role to members then sends a confirm message and deletes it after 3 seconds if they already have the xbox role it removes the role then sends a confirm message and deletes it after 3 seconds.
-- [playstation] - gives the sony role to members then sends a confirm message and deletes it after 3 seconds if they already have the sony role it removes the role then sends a confirm message and deletes it after 3 seconds.
-- [nintendo] - gives the nintendo role to members then sends a confirm message and deletes it after 3 seconds if they already have the nintendo role it removes the role then sends a confirm message and deletes it after 3 seconds.
-- [pc] - gives the pc role to members then sends a confirm message and deletes it after 3 seconds if they already have the pc role it removes the role then sends a confirm message and deletes it after 3 seconds.
-- [mobile] - gives the mobile role to members then sends a confirm message and deletes it after 3 seconds if they already have the mobile role it removes the role then sends a confirm message and deletes it after 3 seconds.
 - [rules] [rule] - sends an embed of the selected rule if the specified rule number doesn't exist it will send an error rule doesn't exist embed.
 - [help] - sends an embed of all the commands. to get help with a specific command you can do /help (command)
 - [sthetix] - sends a link to sthetix youtube, discord server, twitter, Facebook and Instagram. 
