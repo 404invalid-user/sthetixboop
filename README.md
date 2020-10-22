@@ -1,19 +1,12 @@
 # sthetixboop
-## test edit
 
 Nothing is perfect my code will have some errors I have tested most functions 
 
-- setup
+**setup**
 
 to use this you must replace "yourbottokenhere" with your bot token in config.json and have node installed also change the role/server id in roles and the same for channels in channels.json
 
-**To apply this ‘update’**
-
-You need to go into your config.json and change the name ‘prefix’ to ‘PREFIX’ 
-Then back up and delete the index.js that is already in your bot file and replace it with the one here 
-Then you drag and drop commands, channels.json and roles.json into the bots folder
-If you experience an error make sure you have node.js and discord.js v12 installed because they are not in this folder
-Any other problems contact me
+##### Any other problems contact me
 
 discord Fast: !nvalid-user#0157
 
@@ -27,11 +20,6 @@ __**a full list of commands and what they do**__
 __commands that can be used by all members:__
 
 - [ping] - pings the bots latency in (ms) miller seconds. 
-- [xbox] - gives the xbox role to members then sends a confirm message and deletes it after 3 seconds if they already have the xbox role it removes the role then sends a confirm message and deletes it after 3 seconds.
-- [playstation] - gives the sony role to members then sends a confirm message and deletes it after 3 seconds if they already have the sony role it removes the role then sends a confirm message and deletes it after 3 seconds.
-- [nintendo] - gives the nintendo role to members then sends a confirm message and deletes it after 3 seconds if they already have the nintendo role it removes the role then sends a confirm message and deletes it after 3 seconds.
-- [pc] - gives the pc role to members then sends a confirm message and deletes it after 3 seconds if they already have the pc role it removes the role then sends a confirm message and deletes it after 3 seconds.
-- [mobile] - gives the mobile role to members then sends a confirm message and deletes it after 3 seconds if they already have the mobile role it removes the role then sends a confirm message and deletes it after 3 seconds.
 - [rules] [rule] - sends an embed of the selected rule if the specified rule number doesn't exist it will send an error rule doesn't exist embed.
 - [help] - sends an embed of all the commands. to get help with a specific command you can do /help (command)
 - [sthetix] - sends a link to sthetix youtube, discord server, twitter, Facebook and Instagram. 
