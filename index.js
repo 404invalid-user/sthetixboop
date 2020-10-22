@@ -9,7 +9,7 @@ const { PREFIX, token } = require('./config.json');
 //gets roles
 const { member, security, hacker } = require('./roles.json');
 //gets channels
-const { verifyChannelId, rulesChannelId, consoleRolesChannelId, logChannleId, memberCountChannelId, serverId } = require('./channels.json');
+const { verifyChannelId, rulesChannelId, consoleRolesChannelId, logChannelId, memberCountChannelId, serverId } = require('./channels.json');
 //set the admins
 const admins = ['577059129097584640', '307284032167870466']
     //me who made most of this
