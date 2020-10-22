@@ -1,5 +1,4 @@
 # sthetixboop
-## test edit
 
 Nothing is perfect my code will have some errors I have tested most functions 
 
