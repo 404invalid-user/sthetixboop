@@ -9,7 +9,7 @@ const { PREFIX, token } = require('./config.json');
 //gets roles
 const { member, security, hacker } = require('./roles.json');
 //gets channels
-const { verifyChannelId, rulesChannelId, consoleRolesChannelId, logChannleId, memberCountChannelId, serverId } = require('./channels.json');
+const { verifyChannelId, rulesChannelId, consoleRolesChannelId, logChannelId, memberCountChannelId, serverId } = require('./channels.json');
 //set the admins
 const admins = ['577059129097584640', '307284032167870466']
     //me who made most of this
@@ -71,7 +71,7 @@ client.on("guildMemberAdd", (member) => {
     const welcomeEmbed = new Discord.MessageEmbed()
         .setColor('#0099ff')
         .setAuthor('Sthetixboop', 'https://cdn.discordapp.com/avatars/618053789835853824/a1c51db0b9d2f02f6212ba57aba7a690.png?size=512')
-        .setDescription("Welcome to Sthetix discord server!\nPlease review rules in " + rulesChannel.toString() + "and select your roles in " + rolesChannel.toString())
+        .setDescription("Welcome to Sthetix's discord server!\nPlease review rules in " + rulesChannel.toString() + "and select your roles in " + rolesChannel.toString())
 
     //sends embed to new member
     member.send(welcomeEmbed)
@@ -104,9 +104,9 @@ client.on("message", async message => {
     for (i = 0; i < piracyWords.length; i++) {
         if (message.content.toLowerCase().includes(piracyWords[i])) {
             message.delete();
-            message.reply(`no piracy`);
+            message.reply(`no mentioning piracy tools or sites`);
 
-            const logchannel = client.channels.cache.get(logChannleId);
+            const logchannel = client.channels.cache.get(logChannelId);
             if (!logchannel) { message.channel.send(`error.\n there is no log channel <@!${invalidUser} fix it`) }
             if (logchannel) {
                 const embed = new Discord.MessageEmbed()
