@@ -2,17 +2,11 @@
 
 Nothing is perfect my code will have some errors I have tested most functions 
 
-- setup
+**setup**
 
 to use this you must replace "yourbottokenhere" with your bot token in config.json and have node installed also change the role/server id in roles and the same for channels in channels.json
 
-**To apply this ‘update’**
-
-You need to go into your config.json and change the name ‘prefix’ to ‘PREFIX’ 
-Then back up and delete the index.js that is already in your bot file and replace it with the one here 
-Then you drag and drop commands, channels.json and roles.json into the bots folder
-If you experience an error make sure you have node.js and discord.js v12 installed because they are not in this folder
-Any other problems contact me
+##### Any other problems contact me
 
 discord Fast: !nvalid-user#0157
 
