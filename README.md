@@ -16,6 +16,7 @@ Slowish Email: user@invaliduser.uk.to
 
 __**a full list of commands and what they do**__
 
+You can join the server to use then here http://discord.link/sthetix
 
 __commands that can be used by all members:__
 
