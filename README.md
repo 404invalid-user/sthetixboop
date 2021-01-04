@@ -1,6 +1,6 @@
 # sthetixboop
 
-this bot is now out of use because the server it was in was deleted you can check out my other bots when they show up
+Join the server here https://discord.gg/jKEa6yQdGu
 
 Nothing is perfect my code will have some errors I have tested most functions 
 
